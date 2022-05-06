@@ -34,27 +34,21 @@ p {
 }
 
 
-#armelle {
-  color:darkmagenta;
-  font-variant: small-caps;
-}
-
 /* contact */
-/* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  width: 100%;
+  padding: 12px;  
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
 }
 
-/* Style the submit button with a specific background color etc */
+/*  submit button style */
 input[type=submit] {
-  background-color: darkmagenta;
+  background: linear-gradient(135deg, rgb(1, 108, 112), rgb(13, 38, 88));
   color: white;
   padding: 12px 20px;
   border: none;
@@ -62,12 +56,12 @@ input[type=submit] {
   cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
+/* When moving the mouse over the submit button */
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: darkblue;
 }
 
-/* Add a background color and some padding around the form */
+/*  background color and some padding around the contact form */
 @import "about.css";
 
 .container {
@@ -122,7 +116,7 @@ input[type=submit]:hover {
 }
 
 #top-header {
-  background-color: #C7320D;
+  background: linear-gradient(135deg, rgb(1, 108, 112), rgb(13, 38, 88));
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -153,9 +147,11 @@ input[type=submit]:hover {
   
 }
 #main-menu a {
-  color: #222;
+  color: #000000;
   text-decoration: none;
+  font-weight: bolder;
   text-transform: uppercase;
+  font-variant: small-caps;
 }
 #main-menu a:hover {
   color: rgba(34, 34, 34, 0.6);
