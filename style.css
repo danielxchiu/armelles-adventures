@@ -147,7 +147,7 @@ input[type=submit]:hover {
   
 }
 #main-menu a {
-  color: #000000;
+  color: gray;
   text-decoration: none;
   font-weight: bolder;
   text-transform: uppercase;
